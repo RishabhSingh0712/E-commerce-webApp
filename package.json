@@ -1,0 +1,14 @@
+{
+  "name": "e-commerce-webapp",
+  "version": "1.0.0",
+  "description": "This is a E-commerce project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rishabh Singh",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.3.1"
+  }
+}
