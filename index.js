@@ -70,4 +70,9 @@ const stds = await studentModel.where("age").gt("10").where("name").equals("raun
 console.log(stds)
 
 
+//delete one document where name is "rishabh"
+
+const std = await studentModel.deleteOne({name:"raunak"})
+console.log(std)
+
 }
