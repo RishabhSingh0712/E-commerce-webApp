@@ -20,15 +20,9 @@ const studentSchema = new mongoose.Schema({
         lowercase: true,
         minLength:15
     },
-    subjects:[String],
-    createdAt:{
-        type: Date,
-        immutable: true,
-        default:()=>{
-            return Date.now()
-        }
-    }
-})
+    subjects:[String]
+
+},{versionKey : false , timestamps : true})
 
 //Go ahead and create corresponding collections in DB
 
