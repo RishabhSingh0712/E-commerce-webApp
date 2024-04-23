@@ -3,7 +3,6 @@
  */
 const { verify } = require("jsonwebtoken")
 const user_model = require("../models/user.model")
-
 const verifySignUpBody = async (req,res,next)=>{
 
     try {
