@@ -1,5 +1,5 @@
 /**
- * I need to write the controller /logic to register a user
+ * I need to write the controller/logic to register a user
  */
 const bcrypt = require ("bcryptjs")
 const user_model = require("../models/user.model")
@@ -42,5 +42,9 @@ exports.signup= async(req,res,next)=>{
             message: "some error happened while registering the user"
         })
     }
+    
+}
+
+exports.login = async(req,res)=>{
     
 }
